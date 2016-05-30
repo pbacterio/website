@@ -37,6 +37,8 @@ ifeq ($(RELATIVE), 1)
 	PELICANOPTS += --relative-urls
 endif
 
+-include secrets/publish
+
 help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
