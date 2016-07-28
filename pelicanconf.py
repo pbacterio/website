@@ -6,6 +6,8 @@ AUTHOR = 'Germán Moya'
 SITENAME = 'moya.pro'
 SITEURL = ''
 
+THEME = 'themes/simple'
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
